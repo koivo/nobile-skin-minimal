@@ -4957,34 +4957,34 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2,orgpos.y()))
 		<eLabel position="fill" backgroundColor="#54111112" zPosition="0"/>
 		<widget name="picture" pixmap="distro-logo.png" position="0,0" size="1050,160" alphatest="on" zPosition="1"/>
 	</screen>
-	 <!-- MediaInfo -->
-	<screen name="mediaInfo" position="center,center" size="1280,720" title="MediaInfo" flags="wfNoBorder">
-		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="Nobile.HDF.Mod.Mini/menu/cooltvbg.png" backgroundColor="grey" transparent="1" />
-		<eLabel text="MediaInfo" position="40,53" size="370,26" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="grey" transparent="1" />
-		<widget name="pname" position="180,53" size="1000,30" zPosition="0" font="Regular;24" halign="right" transparent="1" foregroundColor="white" backgroundColor="grey" />
-		<widget name="pinfo" position="150,96" size="1214,30" zPosition="0" font="Regular;26" transparent="1" foregroundColor="black" />
-		<widget name="head" position="35,140" size="1214,25" backgroundColor="#00aaaaaa" zPosition="5" foregroundColor="black" font="Regular;23" halign="center"/>
-		<widget name="head2" position="40,590" size="1214,25" transparent="1" zPosition="1" foregroundColor="white" font="Regular;22" halign="left"/>
-		<widget name="dllist" position="35,170" size="1214,366" backgroundColor="#00aaaaaa" zPosition="5" foregroundColor="black" font="Regular;21" scrollbarMode="showOnDemand" transparent="0" selectionPixmap="Nobile.HDF.Mod.Mini/menu/menusel.png" enableWrapAround="1"/>
-		<widget name="unpacklist" position="35,630" size="1214,30" zPosition="5" font="Regular;21" backgroundColor="grey" scrollbarMode="showOnDemand" transparent="0" selectionPixmap="Nobile.HDF.Mod.Mini/menu/menusel.png" enableWrapAround="1"/>
-		<ePixmap pixmap="Nobile.HDF.Mod.Mini/buttons/red.png" position="20,685" size="35,30" alphatest="blend" />
-		<ePixmap pixmap="Nobile.HDF.Mod.Mini/buttons/green.png" position="240,685" size="35,30" alphatest="blend" />
-		<ePixmap pixmap="Nobile.HDF.Mod.Mini/buttons/yellow.png" position="460,685" size="35,30" alphatest="blend" />
-		<ePixmap pixmap="Nobile.HDF.Mod.Mini/buttons/blue.png" position="700,685" size="35,30" alphatest="blend" />
-		<eLabel text="Löschen" position="60,690" size="180,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-		<eLabel text="AddDownload" position="280,690" size="180,26" zPosition="1" font="Regular;19" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-		<eLabel text="Start/Stop Download" position="500,690" size="200,26" zPosition="1" font="Regular;19" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-		<eLabel text="Einstellung" position="740,690" size="160,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-	</screen>
-	<screen name="mediaInfoSetup" position="center,center" size="1280,720" title="MediaInfo Setup" flags="wfNoBorder">
-		<ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="Nobile.HDF.Mod.Mini/menu/cooltvbg.png" backgroundColor="grey" transparent="1" />
-		<eLabel text="MediaInfo Setup" position="40,53" size="370,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="white" backgroundColor="grey" transparent="1" />
-		<widget name="config" position="center,105" size="1000,300" scrollbarMode="showOnDemand" foregroundColor="black" font="Regular;23" enableWrapAround="1" backgroundColor="grey" selectionPixmap="Nobile.HDF.Mod.Mini/menu/menusel.png" transparent="0" />
-		<ePixmap pixmap="Nobile.HDF.Mod.Mini/buttons/red.png" position="120,685" size="35,30" alphatest="blend" />
-		<ePixmap pixmap="Nobile.HDF.Mod.Mini/buttons/green.png" position="340,685" size="35,30" alphatest="blend" />
-		<eLabel text="Cancel" position="160,690" size="180,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-		<eLabel text="Save" position="380,690" size="180,26" zPosition="1" font="Regular;19" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
-	</screen>
+  <!-- MediaInfo -->
+  <screen name="mediaInfo" position="center,center" size="1280,720" title="MediaInfo" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="Nobile.HDF.Mod/menu/cooltvbg.png" backgroundColor="grey" transparent="1" />
+    <eLabel text="MediaInfo" position="40,53" size="370,26" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="grey" transparent="1" />
+    <widget name="pname" position="180,53" size="1000,30" zPosition="0" font="Regular;24" halign="right" transparent="0" foregroundColor="white" backgroundColor="grey" />
+    <widget name="info" position="150,96" size="1214,30" zPosition="0" font="Regular;26" transparent="1" foregroundColor="black" />
+    <widget name="head" position="35,140" size="1214,25" backgroundColor="unaaaaaa" zPosition="5" foregroundColor="black" font="Regular;23" halign="center" />
+    <widget name="head" position="40,590" size="1214,25" transparent="1" zPosition="1" foregroundColor="white" font="Regular;22" halign="left" />
+    <widget name="downloadList" position="35,170" size="1214,366" backgroundColor="unaaaaaa" zPosition="5" foregroundColor="black" font="Regular;21" scrollbarMode="showOnDemand" transparent="0" selectionPixmap="Nobile.HDF.Mod/menu/menusel.png" enableWrapAround="1" />
+    <widget name="unpacklist" position="35,630" size="1214,30" zPosition="5" font="Regular;21" backgroundColor="grey" scrollbarMode="showOnDemand" transparent="0" selectionPixmap="Nobile.HDF.Mod/menu/menusel.png" enableWrapAround="1" />
+    <ePixmap pixmap="Nobile.HDF.Mod/buttons/red.png" position="20,685" size="35,30" alphatest="blend" />
+    <ePixmap pixmap="Nobile.HDF.Mod/buttons/green.png" position="240,685" size="35,30" alphatest="blend" />
+    <ePixmap pixmap="Nobile.HDF.Mod/buttons/yellow.png" position="460,685" size="35,30" alphatest="blend" />
+    <ePixmap pixmap="Nobile.HDF.Mod/buttons/blue.png" position="700,685" size="35,30" alphatest="blend" />
+    <eLabel text="Löschen" position="60,690" size="180,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <eLabel text="AddDownload" position="280,690" size="180,26" zPosition="1" font="Regular;19" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <eLabel text="Start/Stop Download" position="500,690" size="200,26" zPosition="1" font="Regular;19" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <eLabel text="Einstellung" position="740,690" size="160,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
+  <screen name="mediaInfoConfigScreen" position="center,center" size="1280,720" title="MediaInfo Setup" flags="wfNoBorder">
+    <ePixmap position="0,0" zPosition="-10" size="1280,720" pixmap="Nobile.HDF.Mod/menu/cooltvbg.png" backgroundColor="grey" transparent="1" />
+    <eLabel text="MediaInfo Setup" position="40,53" size="370,26" zPosition="1" font="Regular;22" halign="left" foregroundColor="white" backgroundColor="grey" transparent="1" />
+    <widget name="config" position="center,105" size="1000,300" scrollbarMode="showOnDemand" foregroundColor="black" font="Regular;23" enableWrapAround="1" backgroundColor="grey" selectionPixmap="Nobile.HDF.Mod/menu/menusel.png" transparent="0" />
+    <ePixmap pixmap="Nobile.HDF.Mod/buttons/red.png" position="120,685" size="35,30" alphatest="blend" />
+    <ePixmap pixmap="Nobile.HDF.Mod/buttons/green.png" position="340,685" size="35,30" alphatest="blend" />
+    <eLabel text="Cancel" position="160,690" size="180,26" zPosition="1" font="Regular;20" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+    <eLabel text="Save" position="380,690" size="180,26" zPosition="1" font="Regular;19" halign="left" foregroundColor="black" backgroundColor="grey" transparent="1" />
+  </screen>
   <screen name="Seekbar" position="center,40" size="560,55" flags="wfNoBorder">
 		<widget name="cursor" position="0,15" size="8,18" pixmap="position_arrow.png" alphatest="on" />
 		<widget source="session.CurrentService" render="PositionGauge" position="145,30" size="270,10" zPosition="2" pointer="position_pointer.png:540,0" transparent="1" foregroundColor="grey">
